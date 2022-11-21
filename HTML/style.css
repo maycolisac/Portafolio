@@ -1,0 +1,83 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    /*  esta es la fuente de la lectra en css */
+}
+
+body {
+    /* aqui le damos el color y el margen al cuerpo de la pagina */
+    margin: 0;
+    background-color: #f8e2e2;
+}
+
+header {
+    margin: 0 auto;
+    /*margen centrado por defecto*/
+    background-color: #4492d2;
+    /*le damos color al bloque header*/
+    padding: 2rem 1rem;
+    /*le damos la altura y ancho del header*/
+    color: whitesmoke;
+    /*color de la fuente*/
+}
+
+header h1 {
+    font-size: 3rem;
+    /*le damos el tamano al tiulo*/
+    text-align: center;
+    /*centramos el texto en el cuerpo de la pagina*/
+}
+
+.intro {
+    text-align: center;
+    transition: all 0.3s ease;
+    background-color: rgb(255, 250, 250);
+    /* margin: 1rem 0; */
+    border-radius: 1rem;
+    padding: 1rem 0;
+    cursor: pointer;
+    width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 0.1rem 0.4rem black;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+section article {
+    transition: all 0.3s ease;
+    background-color: rgb(255, 250, 250);
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem black;
+}
+
+footer {
+    background-color: #222;
+    padding: 3rem;
+    color: #fff;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(16, 234, 215);
+}
